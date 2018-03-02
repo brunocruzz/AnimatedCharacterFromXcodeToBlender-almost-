@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2018-03-02T14:21:18</created>
+    <modified>2018-03-02T14:21:18</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <shiftx sid="shiftx" type="float">0</shiftx>
+          <shifty sid="shifty" type="float">0</shifty>
+          <YF_dofdist sid="YF_dofdist" type="float">0</YF_dofdist>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Lamp-light" name="Lamp">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <type sid="type" type="int">0</type>
+          <flag sid="flag" type="int">0</flag>
+          <mode sid="mode" type="int">8192</mode>
+          <gamma sid="blender_gamma" type="float">1</gamma>
+          <red sid="red" type="float">1</red>
+          <green sid="green" type="float">1</green>
+          <blue sid="blue" type="float">1</blue>
+          <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
+          <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
+          <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>
+          <energy sid="blender_energy" type="float">1</energy>
+          <dist sid="blender_dist" type="float">29.99998</dist>
+          <spotsize sid="spotsize" type="float">75</spotsize>
+          <spotblend sid="spotblend" type="float">0.15</spotblend>
+          <halo_intensity sid="blnder_halo_intensity" type="float">1</halo_intensity>
+          <att1 sid="att1" type="float">0</att1>
+          <att2 sid="att2" type="float">1</att2>
+          <falloff_type sid="falloff_type" type="int">2</falloff_type>
+          <clipsta sid="clipsta" type="float">1.000799</clipsta>
+          <clipend sid="clipend" type="float">30.002</clipend>
+          <bias sid="bias" type="float">1</bias>
+          <soft sid="soft" type="float">3</soft>
+          <compressthresh sid="compressthresh" type="float">0.04999995</compressthresh>
+          <bufsize sid="bufsize" type="int">2880</bufsize>
+          <samp sid="samp" type="int">3</samp>
+          <buffers sid="buffers" type="int">1</buffers>
+          <filtertype sid="filtertype" type="int">0</filtertype>
+          <bufflag sid="bufflag" type="int">0</bufflag>
+          <buftype sid="buftype" type="int">2</buftype>
+          <ray_samp sid="ray_samp" type="int">1</ray_samp>
+          <ray_sampy sid="ray_sampy" type="int">1</ray_sampy>
+          <ray_sampz sid="ray_sampz" type="int">1</ray_sampz>
+          <ray_samp_type sid="ray_samp_type" type="int">0</ray_samp_type>
+          <area_shape sid="area_shape" type="int">1</area_shape>
+          <area_size sid="area_size" type="float">0.1</area_size>
+          <area_sizey sid="area_sizey" type="float">0.1</area_sizey>
+          <area_sizez sid="area_sizez" type="float">1</area_sizez>
+          <adapt_thresh sid="adapt_thresh" type="float">0.000999987</adapt_thresh>
+          <ray_samp_method sid="ray_samp_method" type="int">1</ray_samp_method>
+          <shadhalostep sid="shadhalostep" type="int">0</shadhalostep>
+          <sun_effect_type sid="sun_effect_type" type="int">0</sun_effect_type>
+          <skyblendtype sid="skyblendtype" type="int">1</skyblendtype>
+          <horizon_brightness sid="horizon_brightness" type="float">1</horizon_brightness>
+          <spread sid="spread" type="float">1</spread>
+          <sun_brightness sid="sun_brightness" type="float">1</sun_brightness>
+          <sun_size sid="sun_size" type="float">1</sun_size>
+          <backscattered_light sid="backscattered_light" type="float">1</backscattered_light>
+          <sun_intensity sid="sun_intensity" type="float">1</sun_intensity>
+          <atm_turbidity sid="atm_turbidity" type="float">2</atm_turbidity>
+          <atm_extinction_factor sid="atm_extinction_factor" type="float">1</atm_extinction_factor>
+          <atm_distance_factor sid="atm_distance_factor" type="float">1</atm_distance_factor>
+          <skyblendfac sid="skyblendfac" type="float">1</skyblendfac>
+          <sky_exposure sid="sky_exposure" type="float">1</sky_exposure>
+          <sky_colorspace sid="sky_colorspace" type="int">0</sky_colorspace>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images/>
+  <library_animations>
+    <animation id="Armtr_barcoD1_pose_matrix">
+      <source id="Armtr_barcoD1_pose_matrix-input">
+        <float_array id="Armtr_barcoD1_pose_matrix-input-array" count="2">0 1.166667</float_array>
+        <technique_common>
+          <accessor source="#Armtr_barcoD1_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armtr_barcoD1_pose_matrix-output">
+        <float_array id="Armtr_barcoD1_pose_matrix-output-array" count="32">-0.4690143 -0.4963223 0.7305408 -0.00908873 -0.7124342 -0.2762549 -0.6450745 -0.1035304 0.52198 -0.8230116 -0.2240295 -0.02856863 0 0 0 1 -0.4690143 -0.4963223 0.7305408 -0.00908873 -0.7124342 -0.2762549 -0.6450745 -0.1035304 0.52198 -0.8230116 -0.2240295 -0.02856863 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Armtr_barcoD1_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armtr_barcoD1_pose_matrix-interpolation">
+        <Name_array id="Armtr_barcoD1_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Armtr_barcoD1_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Armtr_barcoD1_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Armtr_barcoD1_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Armtr_barcoD1_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Armtr_barcoD1_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Armtr_barcoD1_pose_matrix-sampler" target="Armtr_barcoD1/transform"/>
+    </animation>
+    <animation id="Armtr_bracoD2_pose_matrix">
+      <source id="Armtr_bracoD2_pose_matrix-input">
+        <float_array id="Armtr_bracoD2_pose_matrix-input-array" count="2">0 1.166667</float_array>
+        <technique_common>
+          <accessor source="#Armtr_bracoD2_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armtr_bracoD2_pose_matrix-output">
+        <float_array id="Armtr_bracoD2_pose_matrix-output-array" count="32">-0.5309959 -0.660917 0.530313 2.98023e-8 -0.5277903 0.7475693 0.4032087 0.3373236 -0.6629335 -0.06579192 -0.7457818 0 0 0 0 1 0.554107 -0.6282718 0.5461137 2.98023e-8 -0.8307616 -0.4590598 0.3147999 0.3373236 0.05291896 -0.6281233 -0.7763122 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Armtr_bracoD2_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armtr_bracoD2_pose_matrix-interpolation">
+        <Name_array id="Armtr_bracoD2_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Armtr_bracoD2_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Armtr_bracoD2_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Armtr_bracoD2_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Armtr_bracoD2_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Armtr_bracoD2_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Armtr_bracoD2_pose_matrix-sampler" target="Armtr_bracoD2/transform"/>
+    </animation>
+    <animation id="Armtr_maoD_pose_matrix">
+      <source id="Armtr_maoD_pose_matrix-input">
+        <float_array id="Armtr_maoD_pose_matrix-input-array" count="2">0 1.166667</float_array>
+        <technique_common>
+          <accessor source="#Armtr_maoD_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armtr_maoD_pose_matrix-output">
+        <float_array id="Armtr_maoD_pose_matrix-output-array" count="32">0.7532492 0.4611276 0.4690168 2.98023e-8 -0.5603941 0.8232566 0.09059387 0.2819346 -0.3443459 -0.331074 0.8785304 -7.45058e-9 0 0 0 1 0.7532492 0.4611276 0.4690168 2.98023e-8 -0.5603941 0.8232566 0.09059387 0.2819346 -0.3443459 -0.331074 0.8785304 -7.45058e-9 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Armtr_maoD_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armtr_maoD_pose_matrix-interpolation">
+        <Name_array id="Armtr_maoD_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Armtr_maoD_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Armtr_maoD_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Armtr_maoD_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Armtr_maoD_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Armtr_maoD_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Armtr_maoD_pose_matrix-sampler" target="Armtr_maoD/transform"/>
+    </animation>
+  </library_animations>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Camera" name="Camera" type="NODE">
+        <translate sid="location">7.481132 -10.49619 8.4284</translate>
+        <rotate sid="rotationZ">0 0 1 46.69194</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 63.5593</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Lamp" name="Lamp" type="NODE">
+        <translate sid="location">4.076245 -2.385823 8.988598</translate>
+        <rotate sid="rotationZ">0 0 1 106.9363</rotate>
+        <rotate sid="rotationY">0 1 0 3.163707</rotate>
+        <rotate sid="rotationX">1 0 0 37.26105</rotate>
+        <scale sid="scale">1 0.9999999 1</scale>
+        <instance_light url="#Lamp-light"/>
+      </node>
+      <node id="Armtr" name="Armtr" type="NODE">
+        <translate sid="location">0.4237395 -3.741609 2.152038</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="Armtr_barcoD1" name="barcoD1" sid="barcoD1" type="JOINT">
+          <matrix sid="transform">-0.4690143 -0.4963223 0.7305408 -0.00908873 -0.7124342 -0.2762549 -0.6450745 -0.1035304 0.52198 -0.8230116 -0.2240295 -0.02856863 0 0 0 1</matrix>
+          <node id="Armtr_bracoD2" name="bracoD2" sid="bracoD2" type="JOINT">
+            <matrix sid="transform">-0.8989329 0.02085313 0.4375896 2.98023e-8 -0.122675 0.9469222 -0.2971342 0.3373236 -0.4205596 -0.3207849 -0.8486615 0 0 0 0 1</matrix>
+            <node id="Armtr_maoD" name="maoD" sid="maoD" type="JOINT">
+              <matrix sid="transform">0.7532492 0.4611276 0.4690168 0 -0.5603941 0.8232566 0.0905939 0.2819346 -0.3443458 -0.331074 0.8785304 -5.96046e-8 0 0 0 1</matrix>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">-0.4322341</roll>
+                  <tip_x sid="tip_x" type="float">-0.1020025</tip_x>
+                  <tip_y sid="tip_y" type="float">0.09872525</tip_y>
+                  <tip_z sid="tip_z" type="float">-0.3317313</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <connect sid="connect" type="bool">1</connect>
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-0.4487729</roll>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <roll sid="roll" type="float">-3.433907</roll>
+            </technique>
+          </extra>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
